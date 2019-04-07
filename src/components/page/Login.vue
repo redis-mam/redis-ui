@@ -45,13 +45,13 @@
                 this.$refs[formName].validate((valid) => {
                     if (valid) {
                         console.info(this.ruleForm);
-                        this.$axios.post('http://localhost:8081/user/login', {"userName":'hello'})
-                            .then(function (response) {
-                                console.log(response);
-                            })
-                            .catch(function (error) {
-                                console.log(error);
-                            });
+                        // this.$axios.post('http://localhost:8081/user/login', {"userName":'hello'})
+                        //     .then(function (response) {
+                        //         console.log(response);
+                        //     })
+                        //     .catch(function (error) {
+                        //         console.log(error);
+                        //     });
                         localStorage.setItem('ms_username',this.ruleForm.username);
                         // this.$router.push('/');
                     } else {
