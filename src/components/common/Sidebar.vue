@@ -39,6 +39,30 @@
                 collapse: false,
                 items: [
                     {
+                        icon: 'el-icon-lx-calendar',
+                        index: 'config',
+                        title: '配置管理',
+                        subs: [
+                            {
+                                index: 'user',
+                                title: '用户管理'
+                            },
+                            {
+                                index: 'role',
+                                title: '权限管理'
+                            },
+                            {
+                                index: 'redis',
+                                
+                                title: 'Redis连接管理'
+                            },
+                            {
+                                index: 'urr',
+                                title: '授权管理'
+                            }
+                        ]
+                    },
+                    {
                         icon: 'el-icon-lx-home',
                         index: 'dashboard',
                         title: '系统首页'

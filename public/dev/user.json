@@ -1,0 +1,16 @@
+{
+  "list": [
+    {
+      "name": "admin",
+      "pwd": "******",
+      "state": "1",
+      "description": "超级管理员"
+    },
+    {
+      "name": "guest",
+      "pwd": "******",
+      "state": "0",
+      "description": "游客"
+    }
+  ]
+}

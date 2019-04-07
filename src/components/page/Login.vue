@@ -53,7 +53,7 @@
                         //         console.log(error);
                         //     });
                         localStorage.setItem('ms_username',this.ruleForm.username);
-                        // this.$router.push('/');
+                        this.$router.push('/');
                     } else {
                         console.log('error submit!!');
                         return false;

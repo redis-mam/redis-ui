@@ -15,6 +15,26 @@ export default new Router({
             meta: { title: '自述文件' },
             children:[
                 {
+                    path: '/user',
+                    component: resolve => require(['../components/page/user.vue'], resolve),
+                    meta: { title: '用户管理' }
+                },
+                {
+                    path: '/role',
+                    component: resolve => require(['../components/page/role.vue'], resolve),
+                    meta: { title: '权限管理' }
+                },
+                {
+                    path: '/redis',
+                    component: resolve => require(['../components/page/redis.vue'], resolve),
+                    meta: { title: 'Redis连接管理' }
+                },
+                {
+                    path: '/urr',
+                    component: resolve => require(['../components/page/urr.vue'], resolve),
+                    meta: { title: '授权管理' }
+                },
+                {
                     path: '/dashboard',
                     component: resolve => require(['../components/page/Dashboard.vue'], resolve),
                     meta: { title: '系统首页' }
